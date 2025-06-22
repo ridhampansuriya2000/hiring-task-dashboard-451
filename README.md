@@ -52,24 +52,16 @@ Make sure you have the following installed:
 
 2. **Install dependencies**
    ```sh
-   npm install
-   # or if using yarn
-   yarn install
+   yarn install --legacy-peer-deps --force
 
 3. **Start the development server**
    ```sh
-   npm run dev
-   # or
    yarn dev
 
 4. **Build for production**
    ```sh
-   npm run build
-   # or
    yarn build
 
 5. **Preview the production build**
    ```sh
-   npm run preview
-   # or
    yarn preview
